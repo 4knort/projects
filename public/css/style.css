@@ -1,0 +1,99 @@
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 15px 0;
+    margin: 0;
+    background: #000;
+}
+.container{
+    width: 900px;    
+    margin: 0 auto;
+    padding: 0 10px;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+div{
+    margin: 0;
+    padding: 10px 0;
+}
+.description{
+    padding: 0;
+}
+.block{
+    margin-left: 290px;
+    width: 150px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+}
+.work{
+    min-width: 150px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 35px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.description>a:first-child{
+    float: left;
+}
+.description>a:last-child{
+    float: right;
+}
+.description>a{
+    text-decoration: none;
+    color: #FFF;
+}
+.description>a:hover{
+    color: #9B0024;
+    transition: color 300ms;
+}
+.work>a{
+    display: block;
+}
+.special{
+    position: relative;
+}
+.special:after{
+    content: "Резина";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.responsive:after{
+    content: "Responsive";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+.json:after{
+    content: "AJAX+JSON+OOP";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.mail:before{
+    content: "Mailer";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.mails:before{
+    content: "Mailers";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}

@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow-black-icon {
+    width: 6px;
+    height: 3px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-icon {
+    width: 6px;
+    height: 3px;
+    background-position: -21px -5px;
+}
+
+.sprite-arrow-top-icon {
+    width: 12px;
+    height: 17px;
+    background-position: -37px -5px;
+}
+
+.sprite-best-offer-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -59px -5px;
+}
+
+.sprite-cart-icon {
+    width: 27px;
+    height: 35px;
+    background-position: -93px -5px;
+}
+
+.sprite-chat-icon {
+    width: 20px;
+    height: 20px;
+    background-position: -130px -5px;
+}
+
+.sprite-chat-icon-red {
+    width: 32px;
+    height: 31px;
+    background-position: -160px -5px;
+}
+
+.sprite-delievery-icon {
+    width: 24px;
+    height: 24px;
+    background-position: -202px -5px;
+}
+
+.sprite-empty-star-icon {
+    width: 12px;
+    height: 10px;
+    background-position: -236px -5px;
+}
+
+.sprite-empty-star-icon-big {
+    width: 17px;
+    height: 14px;
+    background-position: -258px -5px;
+}
+
+.sprite-flags-icon {
+    width: 159px;
+    height: 14px;
+    background-position: -285px -5px;
+}
+
+.sprite-full-star-icon {
+    width: 12px;
+    height: 10px;
+    background-position: -454px -5px;
+}
+
+.sprite-full-star-icon-big {
+    width: 17px;
+    height: 14px;
+    background-position: -476px -5px;
+}
+
+.sprite-like-icon {
+    width: 23px;
+    height: 19px;
+    background-position: -503px -5px;
+}
+
+.sprite-login-icon {
+    width: 22px;
+    height: 20px;
+    background-position: -536px -5px;
+}
+
+.sprite-pcs-icon {
+    width: 24px;
+    height: 22px;
+    background-position: -568px -5px;
+}
+
+.sprite-social-grey-icons {
+    width: 173px;
+    height: 26px;
+    background-position: -602px -5px;
+}
+
+.sprite-social-icons-color {
+    width: 161px;
+    height: 32px;
+    background-position: -785px -5px;
+}
+
+.sprite-support-icon {
+    width: 24px;
+    height: 22px;
+    background-position: -956px -5px;
+}
+
+.sprite-weight-icon {
+    width: 22px;
+    height: 24px;
+    background-position: -990px -5px;
+}
+
+.sprite-wishlist-icon {
+    width: 35px;
+    height: 36px;
+    background-position: -1022px -5px;
+}
+
+.sprite-zlike-icon-grey {
+    width: 23px;
+    height: 19px;
+    background-position: -1067px -5px;
+}

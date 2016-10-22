@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Тестовое задание</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/posts.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header id="header">
+            <div class="page-header">
+                <h1>Тестовое задание</h1>
+            </div>
+            <h2>Задача:</h2>
+            <ol>
+                <li>Используя коллекцию <code>json/posts.json</code> заполнить базовыми значениями <code>localStorage</code> пользователя, вывести записи в <code>#posts</code>, взяв за основу разметку <code>#posts article</code>.</li>
+                <li>Возможность удаления записи из <code>localStorage</code>.</li>
+                <li>Форма добавления записи, валидация данных.</li>
+            </ol>
+            <p class="alert alert-info">Ограничений по использованию библиотек, кроссбраузерности &mdash; нет.</p>
+        </header>
+
+        <section>
+
+            <div id="posts" class="well">
+
+                
+
+            </div> <!-- /#posts -->
+            
+            <form id="post-add" class="col-lg-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="title" placeholder="заголовок">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="body" placeholder="запись">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="tags" placeholder="тег, еще тег">
+                </div>
+                <button type="submit" class="btn btn-primary">Добавить</button>
+            </form> <!-- /#post-add -->
+
+        </section>
+
+    </div>
+<template id="post">
+    <article class="article">
+        <header>
+            <h3 id="title"></h3>
+        </header>
+        <section>
+            <p id="text"></p>
+        </section>
+        <footer>
+            <div class="tags"></div>
+        </footer>
+        <div class="controls">
+            <button class="btn btn-danger btn-mini delete-btn">удалить</button>
+        </div>
+    </article>
+</template>
+ <script src="js/script.js"></script>
+ <script src="js/post.js"></script>
+ <script src="js/form.js"></script>
+</body>
+</html>
