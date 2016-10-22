@@ -32,6 +32,8 @@ div{
     text-align: center;
     position: relative;
     margin-bottom: 25px;
+    display: inline-block;
+    vertical-align: top;
 }
 .work{
     min-width: 150px;
@@ -92,6 +94,13 @@ div{
 }
 .mails:before{
     content: "Mailers";
+    color: yellow;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.react:before{
+    content: "React";
     color: yellow;
     position: absolute;
     top: -5px;
