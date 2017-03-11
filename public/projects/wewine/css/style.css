@@ -1,0 +1,381 @@
+body {
+	font-family: "PT Serif", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	min-width: 320px;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+a {
+	text-decoration: none;
+	border: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #e5493a;
+}
+
+img {
+	font-size: 0;
+	border: none;
+	outline: none;
+	max-width: 100%;
+	height: auto;
+	vertical-align: top;
+}
+
+button {
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+
+button:focus {
+	outline: none;
+}
+
+p::-moz-selection,
+h1::-moz-selection,
+h2::-moz-selection,
+h3::-moz-selection,
+h4::-moz-selection,
+h5::-moz-selection,
+h6::-moz-selection {
+	background-color: #1c93d5;
+	color: #fff;
+}
+
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+	background-color: #1c93d5;
+	color: #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #444444;
+  text-align: center;
+}
+
+::-moz-placeholder {
+	color: #444444;
+  text-align: center;
+}
+
+/* Firefox 19+ */
+
+:-moz-placeholder {
+	color: #444444;
+  text-align: center;
+}
+
+/* Firefox 18- */
+
+:-ms-input-placeholder {
+	color: #444444;
+  text-align: center;
+}
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+.show {
+	display: block;
+}
+
+input {
+	font-family: "PT Serif", Arial, sans-serif;
+	outline: none;
+	padding: 0;
+	border: none;
+	font-weight: normal;
+	font-size: 22px;
+  background-color: #ececec;
+  width: 100%;
+  margin-bottom: 21px;
+  padding: 24px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+input:hover {
+  background-color: #efefef;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input[type="submit"] {
+	background-color: #f2c53b;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 17px;
+  cursor: pointer;
+  margin-bottom: 21px;
+}
+input[type="submit"]:hover {
+  background-color: #f4d063;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+textarea {
+	outline: none;
+	border: none;
+}
+
+form {
+  padding: 0 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.to-left {
+  float: left;
+}
+
+.to-right {
+  float: right;
+}
+
+.counter {
+  position: absolute;
+  bottom: 29px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f7c23a;
+  min-height: 89px;
+  width: 90%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 21px 0;
+  padding-top: 37px;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #252525;
+}
+
+.counter div {
+  display: inline-block;
+  vertical-align: top;
+}
+.counter span {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: #ca9e32;
+  display: inline-block;
+  margin-right: 43px;
+}
+.block-left {
+  background: url('../img/bg.jpg') no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 100vh;
+  background-position: -200px;
+  position: relative;
+}
+
+.block-right {
+  background-color: #fefefe;
+  height: 100vh;
+  width: 40%;
+  padding: 0 35px;
+  padding-top: 157px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.social-icon {
+  font-size: 0;
+  width: 37px;
+  height: 37px;
+  background-color: #B6B6B6;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+.social .social-icon:hover {
+  background-color: #bababa;
+}
+.social {
+  font-size: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
+.social-icon.email {
+  width: auto;
+  padding-left: 33px;
+  padding-right: 6px;
+  padding-top: 9px;
+  font-size: 11px;
+  position: relative;
+  color: #d9d9d9;
+}
+
+.social-icon.facebook {
+  background: #B6B6B6 url("../img/facebook-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+.social-icon.twitter {
+  background: #B6B6B6 url("../img/twitter-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+.social-icon.google {
+  background: #B6B6B6 url("../img/google-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+.social-icon.pinterest {
+  background: #B6B6B6 url("../img/pinterest-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+.social-icon.github {
+  background: #B6B6B6 url("../img/github-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+.social-icon.in {
+  background: #B6B6B6 url("../img/in-icon.svg") no-repeat;
+  background-position: center;
+  background-size: 17px;
+}
+
+.social-icon.email:before {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 9px;
+  left: 9px;
+  background: url('../img/email-icon.svg') no-repeat;
+  background-size: 17px;
+}
+
+
+.devider {
+  position: relative;
+  min-height: 20px;
+  margin-bottom: 60px;
+}
+.devider span {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background: #fefefe url(../img/grapes.svg) no-repeat;
+  background-size: 25px;
+  background-position: center;
+  z-index: 100;
+}
+
+.devider:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ececec;
+  top: 50%;
+  left: 0;
+}
+
+.form p {
+  margin: 0;
+  text-align: center;
+  font-style: italic;
+  color: #656565;
+  font-size: 16px;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.logo a {
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: 'Philosopher', sans-serif;
+  color: #b3861c;
+  font-size: 78px;
+  line-height: 78px;
+  letter-spacing: 4px;
+}
+.logo span {
+  color: #222222;
+}
+
+@media (max-width: 1000px) {
+  .block-left {
+  	width: 100%;
+    height: 90vh;
+    background-position: -290px;
+  }
+  .block-right {
+    width: 100%;
+    padding-top: 35px;
+    height: auto;
+    min-height: 80vh;
+  }
+  .social {
+    position: static;
+  }
+  .social-icon {
+    margin-right: 16px;
+    margin-bottom: 13px;
+  }
+  .counter {
+    min-height: auto;
+    padding: 14px 0;
+    font-size: 12px;
+    line-height: 14px;
+    bottom: 15px;
+    width: 60%;
+  }
+  .counter span {
+    font-size: 10px;
+    margin-right: 0;
+  }
+  .counter div {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+  }
+  form {
+    padding: 0;
+  }
+  .form p {
+    margin-bottom: 15px;
+  }
+}
+
