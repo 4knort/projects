@@ -163,10 +163,10 @@ form {
   width: 90%;
   box-sizing: border-box;
   text-align: center;
-  padding: 21px 0;
-  padding-top: 37px;
-  font-size: 48px;
-  line-height: 48px;
+  padding: 20px 0;
+  padding-top: 28px;
+  font-size: 35px;
+  line-height: 36px;
   font-weight: bold;
   letter-spacing: 1px;
   color: #252525;
@@ -182,7 +182,7 @@ form {
   letter-spacing: 0;
   color: #ca9e32;
   display: inline-block;
-  margin-right: 43px;
+  margin-right: 20px;
 }
 .block-left {
   background: url('../img/bg.jpg') no-repeat;
