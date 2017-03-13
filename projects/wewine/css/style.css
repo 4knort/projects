@@ -371,6 +371,9 @@ form {
     vertical-align: baseline;
     margin-right: 5px;
   }
+  .logo a {
+    font-size: 69px;
+  }
   form {
     padding: 0;
   }
