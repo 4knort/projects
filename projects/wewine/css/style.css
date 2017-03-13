@@ -382,3 +382,9 @@ form {
   }
 }
 
+@media (max-width: 1200px) {
+  .counter {
+    font-size: 35px;
+    line-height: 38px;
+  }
+}
