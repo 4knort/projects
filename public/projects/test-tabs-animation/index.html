@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.responsive-tabs/1.6.1/responsive-tabs.css" />
+<style>
+body {
+  margin-top: 200px;
+}
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .r-tabs-tab {
+    margin-right: 20px !important;
+    
+  }
+  .r-tabs-nav {
+    position: relative;
+    text-align: center;
+    min-height: 80px;
+    margin-bottom: 30px !important;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 10px !important;
+  }
+  .r-tabs-nav .r-tabs-tab {
+    padding-top: 20px;
+    position: relative;
+    vertical-align: bottom;
+  }
+  .r-tabs-nav .r-tabs-tab a {
+    text-decoration: none;
+  }
+  .r-tabs-nav .r-tabs-tab span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .r-tabs-nav .r-tabs-state-active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    padding-left: 60px;
+    animation-name: example;
+    animation-duration: 0.75s;
+  }
+  .r-tabs-nav .r-tabs-state-active a {
+    color: #d36607;
+  }
+  .r-tabs-nav .r-tabs-state-active span {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 45px;
+    transform: none;
+  }
+  .r-tabs-nav .r-tabs-state-active span img{
+    width: 100%;
+    vertical-align: top;
+  }
+  .all {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 22px;
+    z-index: 111;
+  }
+  #responsiveTabsDemo {
+    position: relative;
+  }
+  
+  @keyframes example {
+      from {left: 30%;}
+      to {left: 0;}
+  }
+
+  @media (max-width: 768px) {
+    .r-tabs-accordion-title {
+      padding-left: 20px;
+      position: relative;
+    }
+    .r-tabs-accordion-title span {
+      position: absolute;
+      width: 15px;
+      top: 1px;
+      left: 0;
+    }
+    .r-tabs-accordion-title span img {
+      width: 100%;
+      vertical-align: top;
+    }
+    .all {
+      display: none;
+    }
+  }
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+ <div class="container">
+    <div id="responsiveTabsDemo">
+    <a class="all" href="">all >>></a>
+     <ul>
+        <li>
+           <a href="#tab-1"> youtube  <span><img src="icon.svg" alt=""></span></a>
+        </li>
+        <li>
+           <a href="#tab-2"> vkontakt <span><img src="icon2.svg" alt=""></span></a>
+        </li>
+        <li>
+           <a href="#tab-3"> twitter  <span><img src="icon3.svg" alt=""></span></a>
+        </li>
+        <li>
+           <a href="#tab-4"> instagram <span><img src="icon4.svg" alt=""></span></a>
+           
+        </li>
+     </ul>
+   
+     <div id="tab-1"> youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube   youtube  </div>
+     <div id="tab-2"> vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt vkontakt  </div>
+     <div id="tab-3"> twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter twitter  </div>
+     <div id="tab-4"> instagram instagram instagram instagram instagram instagram instagram instagram instagram instagram instagram instagram instagram instagram </div>
+   </div>
+ </div>
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.responsive-tabs/1.6.1/jquery.responsiveTabs.min.js"></script>
+  <script>
+    $('#responsiveTabsDemo').responsiveTabs({
+        startCollapsed: 'tabs',
+        animation: 'slide'
+    });
+  </script>
+</body>
+</html>
