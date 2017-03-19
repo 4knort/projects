@@ -26,12 +26,15 @@ body {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-    padding-top: 40px !important;
+    padding-top: 10px !important;
   }
   .r-tabs-nav .r-tabs-tab {
     padding-top: 20px;
     position: relative;
     vertical-align: bottom;
+  }
+  .r-tabs-nav .r-tabs-tab a {
+    text-decoration: none;
   }
   .r-tabs-nav .r-tabs-tab span {
     position: absolute;
@@ -44,14 +47,17 @@ body {
     top: 0;
     left: 0;
     font-size: 25px;
-    padding-top: 50px;
+    padding-left: 60px;
+  }
+  .r-tabs-nav .r-tabs-state-active a {
+    color: #d36607;
   }
   .r-tabs-nav .r-tabs-state-active span {
     position: absolute;
-    top: 5px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 15px;
+    left: 0;
     width: 45px;
+    transform: none;
   }
   .r-tabs-nav .r-tabs-state-active span img{
     width: 100%;
